@@ -1,0 +1,18 @@
+.social-icons{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+
+    & a{
+        text-decoration: none;
+        color: #D8C55A;
+        letter-spacing: 2rem;
+        font-size: 1.5rem;
+    
+        opacity: 0.5;
+    }
+    
+    & a:hover{
+        opacity: 1;
+    }
+    
+}

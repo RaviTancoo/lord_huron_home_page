@@ -1,0 +1,27 @@
+.about{
+    padding: 5rem;
+    display: grid;
+    place-items: center;
+
+
+    background-color: $NIGHT;
+    color: $CITRON;
+
+    height: 100vh;
+
+    &__h2{
+        font-family: Nickson;
+        font-size: 3rem;
+        letter-spacing: 0.5rem;
+    }
+
+    & p{
+        font-family: SanFrancisco;
+        text-align: center;
+        color: $CORNSILK;
+        font-size: 1.1rem;
+    }
+}
+
+
+

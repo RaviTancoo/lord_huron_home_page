@@ -1,0 +1,50 @@
+.contact{
+    padding: 5rem;
+    display: grid;
+    place-items: center;
+
+
+    background-color: $NIGHT;
+    color: $CITRON;
+
+    &__h2{
+        font-family: Nickson;
+        font-size: 3rem;
+        letter-spacing: 0.5rem;
+    }
+
+    &__newsletter{
+        font-family: SanFrancisco;
+        text-transform:uppercase;
+        text-align: center;
+    
+    }
+
+    &__logo{
+        font-family: Nickson;
+        font-size: 5rem;
+        letter-spacing: 0.5rem;
+        text-align: center;
+    }
+
+    &__disclaimer{
+        font-size: 0.5rem;
+    }
+
+    &__button{
+        background-color: $CITRON;
+        width: 45%;
+        height: 2rem;
+    
+        font-family: Nickson;
+        font-size: 2rem;
+    
+        border-radius: 25px;
+        border: none;
+    }
+    
+    &__button:hover{
+        scale: 1.5;
+    }
+
+}

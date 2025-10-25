@@ -1,0 +1,46 @@
+.navbar{
+    transform: translateY(-7rem);
+    font-family: SanFrancisco;
+    text-transform: uppercase;
+
+    & ul {
+        display: grid;
+        grid-template-columns: repeat(5, auto); 
+        gap: 10rem;
+        list-style-type: none; 
+    }
+
+    & li {
+        text-align: center; 
+    }
+
+    & a {
+        text-decoration: none;
+        color: $CITRON;
+        opacity: 0.25;
+        transition: opacity 0.5s ease-out;
+    }
+
+    & a:hover {
+        opacity: 1;
+    }
+}
+
+
+.header {
+    display: grid;
+    place-items: center;
+    background: url("../IMG/COVER.jpg");
+    height: 120vh;
+    background-size: cover;
+
+    &__title{
+        color: $CITRON;
+        font-family: Nickson;
+        font-size: 6rem;
+        letter-spacing: 1rem;
+        transform: translateY(2rem);
+    }
+}
+
+

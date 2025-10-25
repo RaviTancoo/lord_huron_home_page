@@ -1,0 +1,13 @@
+.footer{
+    background-color:$BLACKBEAN;
+    color: $CITRON;
+
+    &__copyright{
+        font-family: SanFrancisco;
+        text-align: center;
+        font-size: 0.85rem;
+        padding: 1rem;
+    }
+}
+
+

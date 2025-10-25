@@ -1,0 +1,37 @@
+.tourdates{    
+    height: 100vh;
+    background-color: $DMG;
+    padding: 5rem;
+
+    &__h2{
+        color: $CITRON;
+        font-family: Nickson;
+        font-size: 4rem;
+        letter-spacing: 0.5rem;
+        text-align: center;
+    }
+    
+    &--date{
+        font-weight: bold;
+        font-size: 1.2rem;
+        transform: translateY(-0.5rem);
+    }
+
+    &--arena{
+        font-size: 1.1rem;
+    }
+    &--details{
+        opacity: 0.5;
+        transform: translateY(0.5rem);
+    }
+    
+    &--city{
+        transform: translateY(1.2rem);
+    }
+
+    &--tickets{
+        text-decoration: none;
+        color: $NIGHT;
+    }
+}
+

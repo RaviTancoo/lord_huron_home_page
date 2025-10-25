@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: Nickson;
+  src: url("../FONTS/Nickson.ttf"); }
+
+@font-face {
+  font-family: SanFrancisco;
+  src: url("../FONTS/SanFrancisco.OTF"); }
+
+.navbar {
+  transform: translateY(-7rem);
+  font-family: SanFrancisco;
+  text-transform: uppercase; }
+  .navbar ul {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 10rem;
+    list-style-type: none; }
+  .navbar li {
+    text-align: center; }
+  .navbar a {
+    text-decoration: none;
+    color: #D8C55A;
+    opacity: 0.25;
+    transition: opacity 0.5s ease-out; }
+  .navbar a:hover {
+    opacity: 1; }
+
+.header {
+  display: grid;
+  place-items: center;
+  background: url("../IMG/COVER.jpg");
+  height: 120vh;
+  background-size: cover; }
+  .header__title {
+    color: #D8C55A;
+    font-family: Nickson;
+    font-size: 6rem;
+    letter-spacing: 1rem;
+    transform: translateY(2rem); }
+
+.about {
+  padding: 5rem;
+  display: grid;
+  place-items: center;
+  background-color: #141414;
+  color: #D8C55A;
+  height: 100vh; }
+  .about__h2 {
+    font-family: Nickson;
+    font-size: 3rem;
+    letter-spacing: 0.5rem; }
+  .about p {
+    font-family: SanFrancisco;
+    text-align: center;
+    color: #F3EECD;
+    font-size: 1.1rem; }
+
+.tourdates {
+  height: 100vh;
+  background-color: #4B5D2A;
+  padding: 5rem; }
+  .tourdates__h2 {
+    color: #D8C55A;
+    font-family: Nickson;
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+    text-align: center; }
+  .tourdates--date {
+    font-weight: bold;
+    font-size: 1.2rem;
+    transform: translateY(-0.5rem); }
+  .tourdates--arena {
+    font-size: 1.1rem; }
+  .tourdates--details {
+    opacity: 0.5;
+    transform: translateY(0.5rem); }
+  .tourdates--city {
+    transform: translateY(1.2rem); }
+  .tourdates--tickets {
+    text-decoration: none;
+    color: #141414; }
+
+.grid__container2 {
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, calc(33.3%));
+  padding: 0.1rem;
+  gap: 1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease; }
+  .grid__container2:hover {
+    background-color: #222A13;
+    scale: 1.1; }
+  .grid__container2--item1, .grid__container2--item2, .grid__container2--item3 {
+    padding: 0.75rem;
+    color: #F3EECD;
+    text-align: center;
+    font-family: SanFrancisco; }
+  .grid__container2--item1 {
+    text-align: left; }
+  .grid__container2--item2 {
+    transform: translateX(-2rem); }
+  .grid__container2--item3 {
+    background-color: #D8C55A;
+    width: 50%;
+    height: 50%;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 8rem;
+    border-radius: 19px;
+    transform: translateY(1rem); }
+
+.discography {
+  padding: 5rem;
+  background-color: #4D3A19;
+  height: 185vh; }
+  .discography__h2 {
+    color: #D8C55A;
+    font-family: Nickson;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    margin-bottom: 2rem; }
+  .discography__soundtrack {
+    display: grid;
+    place-items: center;
+    height: 1rem;
+    margin: 0 auto; }
+  .discography__soundtrack--title {
+    font-family: SanFrancisco;
+    color: #F3EECD;
+    text-align: center;
+    transform: translateY(30rem);
+    margin-top: 1rem; }
+
+.soundtrack__img {
+  width: 30rem;
+  height: auto;
+  max-width: 100%;
+  box-shadow: 0 4px 8px rgba(190, 84, 84, 0.2);
+  border-radius: 10px; }
+  .soundtrack__img:hover {
+    scale: 1.1; }
+
+.grid__container4 {
+  transform: translateY(30rem);
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, calc(25%));
+  padding: 0.1rem; }
+  .grid__container4--item1, .grid__container4--item2, .grid__container4--item3, .grid__container4--item4 {
+    padding: 0.75rem;
+    text-align: center; }
+
+.album-cover {
+  width: 100%;
+  height: auto;
+  max-width: 250px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(190, 84, 84, 0.2);
+  border-radius: 5px; }
+  .album-cover:hover {
+    scale: 1.1;
+    margin-bottom: 1rem; }
+
+.album-caption {
+  font-family: SanFrancisco;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #FBF4EE;
+  font-weight: 500; }
+
+.contact {
+  padding: 5rem;
+  display: grid;
+  place-items: center;
+  background-color: #141414;
+  color: #D8C55A; }
+  .contact__h2 {
+    font-family: Nickson;
+    font-size: 3rem;
+    letter-spacing: 0.5rem; }
+  .contact__newsletter {
+    font-family: SanFrancisco;
+    text-transform: uppercase;
+    text-align: center; }
+  .contact__logo {
+    font-family: Nickson;
+    font-size: 5rem;
+    letter-spacing: 0.5rem;
+    text-align: center; }
+  .contact__disclaimer {
+    font-size: 0.5rem; }
+  .contact__button {
+    background-color: #D8C55A;
+    width: 45%;
+    height: 2rem;
+    font-family: Nickson;
+    font-size: 2rem;
+    border-radius: 25px;
+    border: none; }
+  .contact__button:hover {
+    scale: 1.5; }
+
+.social-icons {
+  display: grid;
+  grid-template-columns: repeat(6, auto); }
+  .social-icons a {
+    text-decoration: none;
+    color: #D8C55A;
+    letter-spacing: 2rem;
+    font-size: 1.5rem;
+    opacity: 0.5; }
+  .social-icons a:hover {
+    opacity: 1; }
+
+.footer {
+  background-color: #3D1C15;
+  color: #D8C55A; }
+  .footer__copyright {
+    font-family: SanFrancisco;
+    text-align: center;
+    font-size: 0.85rem;
+    padding: 1rem; }
+
+.spacer {
+  margin-top: 1rem; }
+
+.spacer2 {
+  margin-top: 2rem; }
+
+.spacer4 {
+  margin-top: 4rem; }

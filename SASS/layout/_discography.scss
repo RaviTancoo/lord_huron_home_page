@@ -1,0 +1,47 @@
+.discography{
+    padding: 5rem;
+    background-color: $CAFENOIR;
+    height: 185vh;
+
+    &__h2{
+        color: $CITRON;
+        font-family: Nickson;
+        font-size: 3rem;
+        letter-spacing: 0.5rem;
+    
+        text-align: center;
+    
+        margin-bottom: 2rem;
+    
+    }
+
+    &__soundtrack {
+        display: grid; 
+        place-items: center; 
+        height: 1rem; 
+        margin: 0 auto; 
+    }
+
+    &__soundtrack--title{
+        font-family: SanFrancisco;
+        color: $CORNSILK;
+        text-align: center;
+        transform: translateY(30rem);
+    
+        margin-top: 1rem;
+    }
+}
+
+.soundtrack__img {
+    width: 30rem;
+    height: auto; 
+    max-width: 100%; 
+    box-shadow: 0 4px 8px rgba(190, 84, 84, 0.2);
+    border-radius: 10px;
+
+    &:hover{
+        scale: 1.1;
+    }
+}
+
+
