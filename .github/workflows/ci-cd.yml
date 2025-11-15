@@ -27,7 +27,7 @@ jobs:
       - name: Validate HTML files
         run: |
           echo "Running basic HTML validation..."
-          test -f index.html && echo "✅ index.html found"
+          test -f INDEX.HTML && echo "✅ INDEX.HTML found"
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
